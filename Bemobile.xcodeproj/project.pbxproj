@@ -11,6 +11,7 @@
 		5042D80025C97D8400FD8A0B /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042D7FF25C97D8400FD8A0B /* TransactionsViewController.swift */; };
 		5042D80325C97DD300FD8A0B /* ProductsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042D80225C97DD300FD8A0B /* ProductsTableView.swift */; };
 		5042D80625C97E1200FD8A0B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042D80525C97E1200FD8A0B /* LoginViewController.swift */; };
+		5042D81025C9838600FD8A0B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5042D80E25C9838600FD8A0B /* MainStoryboard.storyboard */; };
 		5064220725C2BBF200D01A75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5064220625C2BBF200D01A75 /* AppDelegate.swift */; };
 		5064220D25C2BBF700D01A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5064220C25C2BBF700D01A75 /* Assets.xcassets */; };
 		5064221025C2BBF700D01A75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5064220F25C2BBF700D01A75 /* Preview Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		5042D7FF25C97D8400FD8A0B /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		5042D80225C97DD300FD8A0B /* ProductsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableView.swift; sourceTree = "<group>"; };
 		5042D80525C97E1200FD8A0B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5042D80F25C9838600FD8A0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5064220325C2BBF200D01A75 /* Bemobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bemobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5064220625C2BBF200D01A75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5064220C25C2BBF700D01A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				5042D7FC25C97CCE00FD8A0B /* Transactions */,
 				5064220625C2BBF200D01A75 /* AppDelegate.swift */,
 				5064220C25C2BBF700D01A75 /* Assets.xcassets */,
+				5042D80E25C9838600FD8A0B /* MainStoryboard.storyboard */,
 				5064221125C2BBF700D01A75 /* LaunchScreen.storyboard */,
 				5064221425C2BBF700D01A75 /* Info.plist */,
 				5064220E25C2BBF700D01A75 /* Preview Content */,
@@ -272,6 +275,7 @@
 			files = (
 				5064221325C2BBF700D01A75 /* LaunchScreen.storyboard in Resources */,
 				5064221025C2BBF700D01A75 /* Preview Assets.xcassets in Resources */,
+				5042D81025C9838600FD8A0B /* MainStoryboard.storyboard in Resources */,
 				5064220D25C2BBF700D01A75 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,6 +341,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		5042D80E25C9838600FD8A0B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5042D80F25C9838600FD8A0B /* Base */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
 		5064221125C2BBF700D01A75 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
