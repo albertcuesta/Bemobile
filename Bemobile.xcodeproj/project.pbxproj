@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5042D7FE25C97D1900FD8A0B /* TransaccionesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042D7FD25C97D1900FD8A0B /* TransaccionesTableViewCell.swift */; };
+		5042D80025C97D8400FD8A0B /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042D7FF25C97D8400FD8A0B /* TransactionsViewController.swift */; };
+		5042D80325C97DD300FD8A0B /* ProductsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042D80225C97DD300FD8A0B /* ProductsTableView.swift */; };
+		5042D80625C97E1200FD8A0B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5042D80525C97E1200FD8A0B /* LoginViewController.swift */; };
 		5064220725C2BBF200D01A75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5064220625C2BBF200D01A75 /* AppDelegate.swift */; };
-		5064220925C2BBF200D01A75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5064220825C2BBF200D01A75 /* SceneDelegate.swift */; };
-		5064220B25C2BBF200D01A75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5064220A25C2BBF200D01A75 /* ContentView.swift */; };
 		5064220D25C2BBF700D01A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5064220C25C2BBF700D01A75 /* Assets.xcassets */; };
 		5064221025C2BBF700D01A75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5064220F25C2BBF700D01A75 /* Preview Assets.xcassets */; };
 		5064221325C2BBF700D01A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5064221125C2BBF700D01A75 /* LaunchScreen.storyboard */; };
@@ -35,10 +37,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5042D7FD25C97D1900FD8A0B /* TransaccionesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransaccionesTableViewCell.swift; sourceTree = "<group>"; };
+		5042D7FF25C97D8400FD8A0B /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		5042D80225C97DD300FD8A0B /* ProductsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsTableView.swift; sourceTree = "<group>"; };
+		5042D80525C97E1200FD8A0B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5064220325C2BBF200D01A75 /* Bemobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bemobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5064220625C2BBF200D01A75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5064220825C2BBF200D01A75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5064220A25C2BBF200D01A75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5064220C25C2BBF700D01A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5064220F25C2BBF700D01A75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5064221225C2BBF700D01A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +80,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5042D7FC25C97CCE00FD8A0B /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				5042D7FD25C97D1900FD8A0B /* TransaccionesTableViewCell.swift */,
+				5042D7FF25C97D8400FD8A0B /* TransactionsViewController.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		5042D80125C97D9F00FD8A0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5042D80225C97DD300FD8A0B /* ProductsTableView.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		5042D80425C97DF500FD8A0B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5042D80525C97E1200FD8A0B /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		506421FA25C2BBF200D01A75 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +128,10 @@
 		5064220525C2BBF200D01A75 /* Bemobile */ = {
 			isa = PBXGroup;
 			children = (
+				5042D80425C97DF500FD8A0B /* Login */,
+				5042D80125C97D9F00FD8A0B /* Products */,
+				5042D7FC25C97CCE00FD8A0B /* Transactions */,
 				5064220625C2BBF200D01A75 /* AppDelegate.swift */,
-				5064220825C2BBF200D01A75 /* SceneDelegate.swift */,
-				5064220A25C2BBF200D01A75 /* ContentView.swift */,
 				5064220C25C2BBF700D01A75 /* Assets.xcassets */,
 				5064221125C2BBF700D01A75 /* LaunchScreen.storyboard */,
 				5064221425C2BBF700D01A75 /* Info.plist */,
@@ -267,9 +297,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5042D80625C97E1200FD8A0B /* LoginViewController.swift in Sources */,
 				5064220725C2BBF200D01A75 /* AppDelegate.swift in Sources */,
-				5064220925C2BBF200D01A75 /* SceneDelegate.swift in Sources */,
-				5064220B25C2BBF200D01A75 /* ContentView.swift in Sources */,
+				5042D7FE25C97D1900FD8A0B /* TransaccionesTableViewCell.swift in Sources */,
+				5042D80025C97D8400FD8A0B /* TransactionsViewController.swift in Sources */,
+				5042D80325C97DD300FD8A0B /* ProductsTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
